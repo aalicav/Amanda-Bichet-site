@@ -62,7 +62,7 @@ body{
     transform: translateX(-50%);
 }
 @media screen and (max-width:992px) {
-    body{width: 100vw;height: 100vh; background-image: url('./images/fundo-mobile.jpg');background-size:120vw 100vh;} 
+    body{width: 100vw;height: 100vh; background-image: url('./images/fundo-mobile.jpg');background-size:120vw 110vh;} 
     .img{max-width: 70%; max-height: 70%;left:40vw;}
     #insta{
         max-width: 100%;
