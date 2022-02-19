@@ -61,16 +61,21 @@ body{
     left:55vw;
     transform: translateX(-50%);
 }
-@media (max-width:600px) {
-    body{width: 100vw;height: 100vh; background-image: url('./images/fundo-mobile.jpg');background-size:auto;} 
-    .img{max-width: 80%; max-height: 80%;left:50vw;}
+@media (min-width:600px) {
+    body{width: 100vw;height: 150vh; background-image: url('./images/fundo-mobile.jpg');background-size:cover;} 
+    .img{max-width: 70%; max-height: 70%;left:40vw;}
     #insta{
         max-width: 100%;
         max-height: 100%;
-        left:20vw;
-        top:30vh;
+        top: 110vh;
+    }
+    .botoes{
+        height:100.04px;
+        width:709px;
+        font-size: 16pt;
     }
     #menu{
+        top:30vw;
         left:20vw;
     }
 }
