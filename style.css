@@ -1,0 +1,55 @@
+body{
+    width: 100vw;
+    height: 120vh;
+    background-image: url('./images/fundo.jpg');
+    background-size: cover;  
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+.img{
+    max-width: 40%;
+    max-height: 40%;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+.botoes{
+    height: 56.65px;
+    width: 400px;
+    border-radius: 100px;
+    background-color: #FFFF;
+    margin-top: 10px;
+    border-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 30px 10px 30px;
+    font-size:12pt 
+}
+.botoes a{
+    color: #a5283b;
+    text-decoration: none;
+}
+.botoes  b{
+    font-weight: bold;
+    font-style: bold;
+}
+.botoes img{
+    max-width: 70%;
+    max-height: 70%;
+}
+#menu{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 100px;
+    height: 100px;
+}
+#menu ul{
+    list-style: none;
+}
+#insta{
+    max-width: 20%;
+    max-height: 20%;
+    position: absolute;
+    top: 720px;
+    left: 500px;
+}
