@@ -62,12 +62,12 @@ body{
     transform: translateX(-50%);
 }
 @media screen and (max-width:992px) {
-    body{width: 100vw;height: 150vh; background-image: url('./images/fundo-mobile.jpg');background-size:120vw 150vh;} 
+    body{width: 100vw;height: 100vh; background-image: url('./images/fundo-mobile.jpg');background-size:120vw 100vh;} 
     .img{max-width: 70%; max-height: 70%;left:40vw;}
     #insta{
         max-width: 100%;
         max-height: 100%;
-        top: 100vh;
+        top: 70vh;
     }
     .botoes{
         height:100.4px;
@@ -76,6 +76,6 @@ body{
     }
     #menu{
         top:30vw;
-        left:5vw;
+        left:20vw;
     }
 }
