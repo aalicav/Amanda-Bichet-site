@@ -73,6 +73,10 @@ body{
         height:100.4px;
         width:709px;
         font-size: 16pt;
+        padding: 10px 60px 10px 70px;
+    }
+    .botoes img{
+        padding:5px 5px 5px 160px;
     }
     #menu{
         top:30vw;
